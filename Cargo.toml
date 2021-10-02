@@ -1,0 +1,9 @@
+[package]
+name = "rws"
+version = "0.0.0"
+description = "An experiment web server to learn rust."
+edition = "2018"
+
+[dependencies]
+hyper = { version = "0.14", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
