@@ -7,3 +7,6 @@ edition = "2018"
 [dependencies]
 hyper = { version = "0.14", features = ["full"] }
 tokio = { version = "1", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = "0.2"
+mime_guess = "2.0.3"
